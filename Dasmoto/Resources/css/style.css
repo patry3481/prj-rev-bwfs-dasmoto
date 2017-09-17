@@ -1,0 +1,93 @@
+html {
+  font-family: Helvetica;
+}
+
+
+.nav {
+  overflow: hidden;
+  background: khaki;
+  position: relative;
+  top:0;
+  width: 100%;
+  }
+.nav a {
+  text-decoration: none;
+  color:white;
+}
+.nav ul {
+  height: 30px;
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+}
+.nav ul li {
+  display: inline-block;
+  float: left;
+  height: inherit;
+  line-height:30px;
+  padding: 0 30px;
+  transition: background .5s;
+  }
+.nav ul li:hover {
+  background: LightSlateGrey;
+  cursor: pointer;
+  transition: background .5s;
+}
+
+
+.header {
+  position:relative;
+  top:-68px;
+  bottom: inherit;
+  background:
+   url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg) no-repeat center center;
+/* how do I link to image in my computer instead of web*/
+  background-size:auto;
+  height: inherit;
+  text-align:center;
+  margin: 0px;
+  max-width: 100%;
+  padding: -30px;
+}
+
+.header h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+
+/* Couldn't decrease space between banner & brushes - help?*/
+
+.bold {
+  font-weight: bold;
+}
+
+.blue {
+  color:blue;
+}
+
+.brushes h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    background-color:mediumspringgreen;
+    height:inherit;
+    width: 100%;
+  }
+  .frames h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    background-color:lightcoral;
+    height:inherit;
+    width: 100%;
+  }
+  .paint h2 {
+      color: white;
+      font-size: 32px;
+      font-weight: bold;
+      background-color:skyblue;
+      height:inherit;
+      width: 100%;
+  }
